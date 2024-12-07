@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="board-details.css">
+    <title>Detalhes do Quadro</title>
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <button id="back-btn">
+                <i class="fas fa-arrow-left"></i>
+            </button>
+            <div class="logo">
+                <h1 id="board-title">Carregando...</h1>
+            </div>
+        </div>
+        <div class="header-right">
+            <button id="add-column-btn">
+                <i class="fas fa-plus"></i>
+                <span>Nova Coluna</span>
+            </button>
+            <button id="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </header>
+
+    <main class="main-container">
+        <div id="board-container" class="board-container">
+            <!-- As colunas serão inseridas aqui dinamicamente -->
+        </div>
+    </main>
+
+    <script src="board-details.js" type="module"></script>
+</body>
+</html>
